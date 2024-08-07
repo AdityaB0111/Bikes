@@ -1,0 +1,457 @@
+/* styles.css */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1b1b1b;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 20px;
+    margin-top: 60px;
+}
+
+.icon1{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.homediv{
+    display: flex;
+}
+.container1, .container3 {
+    box-shadow: 5px 5px 8px black;
+    z-index: 1;
+}
+
+.container2 {
+    padding: 1.4em;
+    align-items: center;
+}
+
+.container2 h1 {
+    margin-bottom: 20px; 
+}
+
+.container2 p {
+    margin-bottom: 20px; 
+    line-height: 1.6; 
+}
+
+
+/* dcvkusdvb */
+
+.container2 {
+    background: #fff;
+    color: #333;
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/* shciwijcwj */
+
+
+
+
+
+.container1:hover, .container3:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+#home {
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#about {
+    background: #47474d;
+}
+
+
+
+#bikes{
+    background-color: #ffffff;
+}
+.heading {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #007bff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    
+}
+.head1{
+    color: white;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative; /* Ensure the position is set to allow z-index to work */
+    z-index: 500; /* Adjusted z-index */
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 285px;
+    transition: transform 0.2s;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;  
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.card-description {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.card-button:hover {
+    background-color: #75afec;
+}
+
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.tablink {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablink.active {
+    border-bottom: 2px solid #00bcd4;
+    color: #00bcd4;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand {
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand span {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.brand:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabcontent {
+    padding: 10px;
+}
+
+
+
+
+
+
+.bikeccflex{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+.price-range-container {
+    background-color: #72757c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.budgetwala {
+    background-color: #72757c;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.price-button {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 27px;
+    margin: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+
+.price-button2 {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 27px;
+    margin: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.price-button:hover {
+    background-color: #adbed7;
+    border-color: #ffffff;
+    color: white;
+
+}
+
+.price-button2:hover {
+    background-color: #adbed7;
+    border-color: #ffffff;
+    color: white;
+}
+
+/* contact section starts here */
+
+#contact {
+    background: #1b1b1b;
+    color: white;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+.container-contact{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: white;
+}
+
+
+
+form button:hover {
+    background: #ff5733;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+    
+    .homediv{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container1, .container3 {
+        margin-bottom: 20px;
+    }
+    .browse-container {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .brand {
+        flex: 1 1 100%;
+    }
+    .price-range-container {
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    
+}
